@@ -1,0 +1,91 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#bg{
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+
+.stag{
+  position: absolute;
+  bottom: 25%;
+  left: 5%;
+  color: white;
+  line-height: 1.5;
+}
+
+.stag h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.stag a{
+  color: black;
+  border: 1px solid white;
+  background-color: white;
+  padding: 3px 5px;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: all 0.5s 0s linear;
+}
+
+.stag a:hover{
+  color: white;
+  background-color: transparent;
+}
+
+
+
+
+#bg2{
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#tinf{
+  height: 40vh;
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  border-radius: 3px;
+  width: 55%;
+}
+
+.tin{
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  color: white;
+  line-height: 2;
+}
+
+.tin h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.tin a{
+  color: black;
+  border: 1px solid white;
+  background-color: white;
+  padding: 3px 5px;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: all 0.5s 0s linear;
+}
+
+.tin a:hover{
+  color: white;
+  background-color: transparent;
+}
